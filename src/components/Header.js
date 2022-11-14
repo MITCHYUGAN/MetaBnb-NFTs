@@ -12,7 +12,7 @@ const Header = () =>{
     return(
         <>
                  <header className='Header'>
-                <a href="/MetaBnb-NFTs">
+                <a href="/">
                     <img src={logo} alt="My Logo" className='logo' />
                 </a>
                 {
