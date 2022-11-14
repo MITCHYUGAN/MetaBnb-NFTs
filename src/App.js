@@ -14,8 +14,8 @@ const App = () =>{
     <div className='App'>
           <HeaderModal />
             <Routes>
-                <Route path="/MetaBnb-NFTs" element={<PartnersInspirationMetabnbNftsLandingpage />} />
-                <Route path='/MetaBnb-NFTs/Placetostay' element={<PlaceToStay />}></Route>
+                <Route path="/HNG-task-MetaBnb-NFTs" element={<PartnersInspirationMetabnbNftsLandingpage />} />
+                <Route path='/HNG-task-MetaBnb-NFTs/Placetostay' element={<PlaceToStay />}></Route>
             </Routes>
           <Footer />
     </div>
