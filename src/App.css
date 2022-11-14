@@ -55,8 +55,8 @@ header{
   align-items: center;
   justify-content: space-between;
   top: 0;
-  padding: 28px 40px;
-  width: min(1290px, 95%);
+  padding: 28px 145px;
+  width: 100%;
   position: fixed;
   background-color: var(--white);
   border-bottom-left-radius: 8px;
@@ -514,6 +514,9 @@ hr{
     grid-template-columns: repeat(3, 32%);
     gap: 24px;
   }
+  header {
+    padding: 28px 45px;
+}
 }
 
 @media (max-width: 950px) {
@@ -529,9 +532,6 @@ hr{
     justify-content: center;
     align-items: center;
   }
-  header {
-    padding: 28px 10px;
-}
   .mobilenav ul{
     display: flex;
     flex-direction: column;
@@ -611,6 +611,10 @@ hr{
   }
 .partner_logo{
   width: 150px;
+}
+.MetabnbNfts-img {
+  width: 90%;
+  align-self: center;
 }
 }
 
