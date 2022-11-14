@@ -1,5 +1,5 @@
 import HeaderModal from './components/Header'
-import PartnersInspirationMetabnbNftsLandingpage from './components/PartnersInspirationMetabnbNftsLandingpage';
+import Main from './components/Main';
 import PlaceToStay from './components/PlaceToStay';
 import Footer from './components/Footer';
 
@@ -14,8 +14,8 @@ const App = () =>{
     <div className='App'>
           <HeaderModal />
             <Routes>
-                <Route path="/MetaBnb-NFTs" element={<PartnersInspirationMetabnbNftsLandingpage />} />
-                <Route path='/MetaBnb-NFTs/Placetostay' element={<PlaceToStay />} />
+                <Route path="/" element={<Main />} />
+                <Route path='/Placetostay' element={<PlaceToStay />} />
             </Routes>
           <Footer />
     </div>
