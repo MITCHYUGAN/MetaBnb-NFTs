@@ -1,7 +1,4 @@
 import threeImages from '../Img/threeimages.png'
-import Partners from './Partners';
-import Inspiration from './Inspiration';
-import LandingPage from './LandingPage';
 
 const MetabnbNfts = () =>{
     return(
@@ -25,15 +22,6 @@ const MetabnbNfts = () =>{
     )
 }
 
-const PartnersInspirationMetabnbNftsLandingpage = () =>{
-    return(
-        <>
-            <LandingPage />
-            <Partners />
-            <Inspiration />
-            <MetabnbNfts/>
-        </>
-    )
-}
 
-export default PartnersInspirationMetabnbNftsLandingpage
+
+export default MetabnbNfts
