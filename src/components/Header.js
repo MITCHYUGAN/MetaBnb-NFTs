@@ -24,7 +24,7 @@ const HeaderModal = () =>{
                     <img src={X} alt="close Nav" onClick={() => { setOpenNav(false) }} className='closenav' />
                     <ul>
                         <li><a href="/MetaBnb-NFTs">Home</a></li>
-                        <li><a href="/MetaBnb-NFTs/Placetostay">Place to stay</a></li>
+                        <li><a href="/HNG-task-MetaBnb-NFTs/Placetostay">Place to stay</a></li>
                         <li><a href="nt">NFTs</a></li>
                         <li><a href="#h">Community</a></li>
                         <button className='nav-connect_btn'  onClick={() => { setOpenModal(true) }}>Connect wallet</button>
@@ -35,7 +35,7 @@ const HeaderModal = () =>{
                 <div className='desktopnav'>
                     <ul>
                         <li><a href="/MetaBnb-NFTs">Home</a></li>
-                        <li><a href="/MetaBnb-NFTs/Placetostay">Place to stay</a></li>
+                        <li><a href="/HNG-task-MetaBnb-NFTs/Placetostay">Place to stay</a></li>
                         <li><a href="nt">NFTs</a></li>
                         <li><a href="#h">Community</a></li>
                         <button className='nav-connect_btn'>Connect wallet</button>
